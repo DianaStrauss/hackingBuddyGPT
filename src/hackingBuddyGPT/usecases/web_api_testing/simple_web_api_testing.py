@@ -115,7 +115,7 @@ class SimpleWebAPITesting(RoundBasedUseCase):
     def _handle_response(self, completion, response):
         """
         Handles the response from the LLM. Parses the response, executes the necessary actions,
-        and updates the prompt history.
+        and updates the prompt history .
 
         Args:
             completion (Any): The completion object from the LLM.
